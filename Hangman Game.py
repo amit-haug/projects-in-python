@@ -1,9 +1,10 @@
-# 32. Hangman (30 and 31)
+# Hangman Game
 
 import random
 
+#change the path of the sowpods file accordingly
 def word_pick():
-    with open('C:\\Users\\amith\\Python Training\\Temp Files\\sowpods.txt', encoding = 'utf-8') as temp:
+    with open('sowpods.txt', encoding = 'utf-8') as temp:
         return random.choice(temp.readlines())
 
 def letter_check(guess_letter):

@@ -1,4 +1,4 @@
-# 29. Tic Tac Toe Game (24, 26 and 27)
+# Tic Tac Toe Game
 
 def board_print(board):
     for x in board:
